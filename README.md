@@ -35,7 +35,7 @@ The app follows the **MVC** architecture:
 ---
 
 ## 📦 Project Structure
-```plaintext
+    ```plaintext
 src/
 ├── Interfaz_usuario/
 │   ├── InterfazUser.java
@@ -46,5 +46,49 @@ src/
 │   ├── productos.java
 │   └── conexionBD.java
 └── conecciones/
-    └── ControladorCargaMarcas.java.
+    └── ControladorCargaMarcas.java
+
+✨ Good Practices
+Code Modularity: Separation of concerns with clear distinctions between UI, database logic, and controllers.
+Reusable Components: Modular functions for database connections and queries.
+Error Handling: Try-catch blocks to manage SQL exceptions gracefully.
+Scalable Design: Built with future extensibility in mind, adhering to the MVC paradigm.
+Resource Management: Proper closing of database connections to prevent leaks.
+
+--------------------------------------------------
+🔧 How to Run
+Prerequisites:
+Install Java JDK (version 8+).
+Install MySQL Server and set up the following database schema:
+
+CREATE DATABASE concesionaria;
+USE concesionaria;
+
+CREATE TABLE cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    brand VARCHAR(50),
+    model VARCHAR(50),
+    price DECIMAL(10, 2)
+);
+
+--------------------------------------------------
+
+Steps:
+Clone the repository:
+
+git clone https://github.com/yourusername/AutoHub.git
+cd AutoHub
+
+--------------------------------------------------
+
+Compile the project:
+
+javac -d bin src/**/*.java
+
+--------------------------------------------------
+Run the application:
+
+java -cp bin Interfaz_usuario.init_app
+
+--------------------------------------------------
 
