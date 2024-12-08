@@ -76,7 +76,7 @@ CREATE TABLE cars (
 Steps:
 Clone the repository:
 
-git clone https://github.com/yourusername/AutoHub.git
+git clone https://github.com/Lozada98/AutoHub.git
 cd AutoHub
 
 --------------------------------------------------
