@@ -95,6 +95,8 @@ Run the application:
 
 --------------------------------------------------
 
+🚗✨ Welcome to Autos Miguel ✨🚗
 
-https://github.com/user-attachments/assets/47cc1206-43c9-4256-9c47-3b28663d23d3
+In this video, I present my project developed in Java using Swing for the graphical interface and MySQL as the database. This system is designed to efficiently manage and query vehicle information for a car dealership. 💻
 
+https://github.com/user-attachments/assets/6a91c1bd-4e64-4488-8e18-583e3676703a
